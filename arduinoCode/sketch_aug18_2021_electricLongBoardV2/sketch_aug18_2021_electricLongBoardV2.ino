@@ -1,6 +1,6 @@
 
 /* author: Alex Semenov
-  Similar to the last version I get the on baord leds here to work
+  Similar to the last version I get the on board leds here to work. This is also the first version that has zero comunication errors, see Bluetooth Shenanagans4 for more details.
 */
 #include <ServoTimer2.h>
 #include <PololuLedStrip.h>
