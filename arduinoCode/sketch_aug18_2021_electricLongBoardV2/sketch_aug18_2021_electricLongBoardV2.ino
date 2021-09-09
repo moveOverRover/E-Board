@@ -1,11 +1,6 @@
 
 /* author: Alex Semenov
-  Third resonable working version
-  Reads more data at a lower resolution and along with the checksum this greatly improves the speed (by about 4x)
-  Dosent use all data recived so that the remote can send every input it has and only some need to be used by the reciver
-  Uses a checksum to determine the integrity of hte message
-  Kill swith is integrated
-  Made the intterupt contain siginicantly less code and switch varriables moddifed in the intterupt to volatle
+  Similar to the last version I get the on baord leds here to work
 */
 #include <ServoTimer2.h>
 #include <PololuLedStrip.h>
