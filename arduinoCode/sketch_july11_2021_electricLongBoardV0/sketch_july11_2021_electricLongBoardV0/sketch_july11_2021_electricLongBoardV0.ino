@@ -1,6 +1,6 @@
 /* author: Alex Semenov
   first version where the board actaully worked. Used the miniJeepV3 message frame for control. I just scraped this together so that I could enjoy my new toy.
-  look at miniJeepV3 fro more information on the frame.
+  look at miniJeepV3 for more information on the frame.
 */
 
 #include <ServoTimer2.h>
